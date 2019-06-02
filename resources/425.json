@@ -1,0 +1,83 @@
+[
+    [{
+            "name": "wwj",
+            "symbolSize": 5,
+            "draggable": "False",
+            "value": 1,
+            "category": "up",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+        {
+            "name": "zgm",
+            "symbolSize": 5,
+            "draggable": "False",
+            "value": 1,
+            "category": "up",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+        {
+            "name": "hky",
+            "symbolSize": 5,
+            "draggable": "False",
+            "value": 1,
+            "category": "down",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        },
+        {
+            "name": "lp",
+            "symbolSize": 5,
+            "draggable": "False",
+            "value": 1,
+            "category": "down",
+            "label": {
+                "normal": {
+                    "show": "True"
+                }
+            }
+        }
+    ],
+    [{
+            "source": "wwj",
+            "target": "zgm"
+        },
+        {
+            "source": "zgm",
+            "target": "hky"
+        },
+        {
+            "source": "hky",
+            "target": "zgm"
+        },
+        {
+            "source": "wwj",
+            "target": "hky"
+        },
+        {
+            "source": "hky",
+            "target": "lp"
+        }
+    ],
+    [{
+            "name": "up",
+            "symbol":"circle"
+        },
+        {
+            "name" : "down",
+            "symbol":"rec"
+        }
+    ]
+]
+
+
